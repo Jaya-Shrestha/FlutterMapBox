@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mapbox/button.dart';
 import 'package:mapbox/my_home_page.dart';
 // import 'my_home_page.dart';
 
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Button(),
+      home: const HomePage(),
     );
   }
 }
